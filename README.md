@@ -1,4 +1,13 @@
-## recommendation_system
+# Recommendation System
+# Instruction on using:
+  1) Take the datasets from ![Kaggle]([https://github.com/](https://www.kaggle.com/competitions/kkbox-music-recommendation-challenge/data)).
+  2) Type the needed paths into all files' downloading and uploading (to_csv() and read_csv())
+  3) RunAll for generation.ipynb
+  3) RunAll for eda.ipynb
+  4) RunAll for nans.ipynb
+  5) RunAll for learn.ipynb
+  6) You've got submissions
+     
 # Dataset Description
 In this task, you will be asked to predict the chances of a user listening to a song repetitively after the first observable listening event within a time window was triggered. If there are recurring listening event(s) triggered within a month after the user’s very first observable listening event, its target is marked 1, and 0 otherwise in the training set. The same rule applies to the testing set.
 
